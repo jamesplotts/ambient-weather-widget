@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "user@example.com",
+                "Name": "Weather Widget Developer"
+            }
+        ],
+        "Category": "Environment and Weather",
+        "Description": "Display weather data from your Ambient Weather station",
+        "Icon": "weather-clear",
+        "Id": "org.kde.plasma.ambientweather",
+        "License": "GPL-2.0+",
+        "Name": "Ambient Weather Station",
+        "Version": "1.0.0"
+    },
+    "KPackage": {
+        "Type": "Plasma/Applet"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
