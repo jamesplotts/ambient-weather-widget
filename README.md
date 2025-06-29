@@ -134,7 +134,7 @@ plasmoidviewer -a /path/to/widget/directory
 
 ## License
 
-GPL-2.0+ - See LICENSE file for details
+GPL-2.0 - See LICENSE file for details
 
 ## Support
 
