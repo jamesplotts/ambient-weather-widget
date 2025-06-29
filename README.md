@@ -7,7 +7,6 @@ A KDE Plasma 6 widget that displays real-time weather data from your Ambient Wea
 - **Panel Integration**: Compact temperature display in your panel with click-to-expand popup
 - **Real-time Data**: Direct connection to Ambient Weather API
 - **Comprehensive Weather Data**: Temperature, humidity, wind, pressure, UV index
-- **Customizable Units**: Fahrenheit/Celsius, Imperial/Metric
 - **Theme Integration**: Follows your Plasma theme colors and styling
 - **Error Handling**: Clear error messages and connection testing
 
@@ -55,11 +54,9 @@ plasmashell --replace &
 ### Widget Configuration
 
 2. **Create configuration file**:
-   - In a terminal, type:
-   - 
-     ```bash
-     nano ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/apiconfig.txt
-     ```
+```bash
+nano ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/apiconfig.txt
+```
      
 3. **Add your Credentials**:
 
