@@ -104,6 +104,7 @@ Shows weather data including:
 - **"Missing API credentials"**: Enter API keys and MAC address in configuration
 - **"API Error: 401"**: Invalid API credentials  
 - **"API Error: 404"**: Device not found, check MAC address
+- **"API Error: 429"**: Exceeded API rate limit
 - **"No data received"**: Device may be offline or not reporting
 
 ## File Structure
