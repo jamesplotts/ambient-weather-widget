@@ -2,8 +2,8 @@
 
 A KDE Plasma 6 widget that displays real-time weather data from your Ambient Weather station.
 
-![Widget Screenshot](screenshots/widget-panel.png)
-![Popup Screenshot](screenshots/widget-popup.png)
+![Widget Screenshot](screenshots/hover.png)
+![Popup Screenshot](screenshots/popup.png)
 
 ## Features
 
