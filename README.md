@@ -20,46 +20,25 @@ A KDE Plasma 6 widget that displays real-time weather data from your Ambient Wea
 
 ## Installation
 
-### Method 1: Automatic Installation
-
 1. Download all the widget files to a directory
-2. Run the installation script:
+
+2. Create the widget directory structure:
 ```bash
-chmod +x install.sh
-./install.sh
+mkdir -p ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/contents/ui
 ```
 
-### Method 2: Manual Installation
-
-1. Create the widget directory structure:
-```bash
-mkdir -p ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/contents/{ui,config}
-```
-
-2. Copy the files:
+3. Copy the files:
 ```bash
 # Copy main widget file
 cp main.qml ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/contents/ui/
-
-# Copy configuration files  
-cp configGeneral.qml ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/contents/config/
-cp config.xml ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/contents/config/
-cp config.ui ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/contents/config/
 
 # Copy metadata
 cp metadata.json ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/
 ```
 
-3. Restart Plasma:
+4. Restart Plasma:
 ```bash
 plasmashell --replace &
-```
-
-### Method 3: Using plasmapkg2
-
-```bash
-# Package the widget (create a directory with all files first)
-plasmapkg2 --install /path/to/widget/directory
 ```
 
 ## Configuration
