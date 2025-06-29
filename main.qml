@@ -20,7 +20,7 @@ Item {
     property string macAddress: ""
     property bool useFahrenheit: true
     property bool useImperial: true
-    property int updateInterval: 5
+    property int updateInterval: 10
 
     Timer {
         id: updateTimer
