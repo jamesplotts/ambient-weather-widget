@@ -63,7 +63,7 @@ nano ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/apiconfig.txt
      
 2. **Add your Credentials**:
 ```
-aapiKey=YOUR_API_KEY_HERE
+apiKey=YOUR_API_KEY_HERE
 applicationKey=YOUR_APPLICATION_KEY_HERE
 macAddress=YOUR_MAC_ADDRESS_HERE
 ```
