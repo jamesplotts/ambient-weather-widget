@@ -53,22 +53,21 @@ plasmashell --replace &
 
 ### Widget Configuration
 
-2. **Create configuration file**:
+1. **Create configuration file**:
 ```bash
 nano ~/.local/share/plasma/plasmoids/org.kde.plasma.ambientweather/apiconfig.txt
 ```
      
-3. **Add your Credentials**:
-
-   ```
-   apiKey=YOUR_API_KEY_HERE
-   applicationKey=YOUR_APPLICATION_KEY_HERE
-   macAddress=YOUR_MAC_ADDRESS_HERE
-   ```
+2. **Add your Credentials**:
+```
+aapiKey=YOUR_API_KEY_HERE
+applicationKey=YOUR_APPLICATION_KEY_HERE
+macAddress=YOUR_MAC_ADDRESS_HERE
+```
    
-4. **Save configuration file**:
+3. **Save configuration file**:
    - Use Ctrl-X to exit, select Yes to save.  
-5. **Add Widget**: Right-click on desktop/panel → Add Widgets → Search "Ambient Weather"
+4. **Add Widget**: Right-click on desktop/panel → Add Widgets → Search "Ambient Weather"
 
 ## Usage
 
